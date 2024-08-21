@@ -1,4 +1,4 @@
-package Learning_java;
+package learning_java;
 
 import java.util.Scanner;
 public class Switch {

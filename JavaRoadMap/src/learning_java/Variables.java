@@ -1,4 +1,4 @@
-package Learning_java;
+package learning_java;
 
 
 public class Variables {

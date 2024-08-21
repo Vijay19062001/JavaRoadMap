@@ -1,4 +1,4 @@
-package Learning_java;
+package learning_java;
 
 import java.util.Scanner;
 public class For_loop {
@@ -17,7 +17,7 @@ public class For_loop {
 			System.out.println();
 			
 		}
-
+          input.close();
 	}
 
 }
