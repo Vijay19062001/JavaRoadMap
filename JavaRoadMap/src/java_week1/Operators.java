@@ -1,23 +1,51 @@
 package java_week1;
 
-import java.util.Scanner;
+
 public class Operators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int a=10;
+		int b=20;
+		int c=20; 
 		
-		Scanner input=new Scanner(System.in);
-		System.out.print("Enter the value a:");
-		int a= input.nextInt();
-		System.out.print("Enter the value b:");
-		int b= input.nextInt();
+		//Arithmetic Operator
+		System.out.println("Arithmetic Operator");
+		System.out.println("The value of "+(a+b)); 
+		System.out.println("The value of "+(a-b));
+		System.out.println("The value of "+(a*b));
+		System.out.println("The value of "+(a/b));
+		System.out.println("The value of "+(a%b));
+		System.out.println();
 		
-		System.out.println("The value of "+ a*b);//Multiplication
-		System.out.print(a > b);
-		System.out.print(a = b);
-	
+		//Ternary Operator
+		System.out.println("Ternary Operator");
+		int min=(a<b)?a:b;  
+		System.out.println(min);  
+		System.out.println();
 		
+		//Assignment Operator
+		System.out.println("Assignment Operator");
+		a+=4;  
+		b-=4; 
+		System.out.println(a);  
+		System.out.println(b);  
+		System.out.println();
 		
+		//Logical Operator
+		System.out.println("Bitwise and Logical Operator");
+		System.out.println(a>b&&a<c);  
+		System.out.println(a>b||a<c);
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println();
+		
+		//Unary Operator
+		System.out.println("Unary Operator");
+		System.out.println(a++);
+		System.out.println(++a); 
+		System.out.println(a--); 
+		System.out.println(--a);
 	}
 
 }
