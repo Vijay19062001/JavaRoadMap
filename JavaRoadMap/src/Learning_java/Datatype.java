@@ -1,4 +1,4 @@
-package java_week1;
+package Learning_java;
 
 class Datatype {
 	double num = 12.3;
