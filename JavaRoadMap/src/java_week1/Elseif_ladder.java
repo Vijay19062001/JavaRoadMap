@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Elseif_ladder {
 
 	 public static void main(String[] args) {
-	 Scanner scanner = new Scanner(System.in);
+	 Scanner input = new Scanner(System.in);
 	 System.out.print("Enter the student's marks: ");
-	 int marks = scanner.nextInt();
+	 int marks = input.nextInt();
 	 char grade;
 	 if (marks >= 90) {
 	 grade = 'O';
@@ -22,5 +22,6 @@ public class Elseif_ladder {
 	 grade = 'F';
 	 }
 	 System.out.println("The student's grade is: " + grade);
+	 input.close();
 	 }
 	 }

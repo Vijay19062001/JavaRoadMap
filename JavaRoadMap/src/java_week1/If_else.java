@@ -19,6 +19,9 @@ public class If_else {
 		else
 			System.out.println("The number is Zero");
 		
+		input.close();
 	}
+	
 
 }
+  
