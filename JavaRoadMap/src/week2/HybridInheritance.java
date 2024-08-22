@@ -86,7 +86,6 @@ public class HybridInheritance {
         System.out.println("\nEmployee Details:");
         emp.displayEmployeeData();
 
-       
         Stud stu = new Stud();
         stu.inputPersonDetails();
         stu.inputStudentData();
