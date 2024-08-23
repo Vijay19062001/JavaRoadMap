@@ -1,6 +1,6 @@
 package week2;
 
-class Person {  
+class Persons {  
     private String name;
     private int age;
 
@@ -33,7 +33,7 @@ class Person {
 public class Encapsulation {
     public static void main(String[] args) {
         
-        Person person = new Person();
+        Persons person = new Persons();
 
         // Set values using setters
         person.setName("Vijay");
