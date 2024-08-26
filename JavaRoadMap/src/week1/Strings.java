@@ -1,4 +1,4 @@
-package learning_java;
+package week1;
 
 public class Strings {
 
