@@ -14,7 +14,8 @@ class Aaludra {
         
         System.out.println("Enter the Employee ID: ");
         this.empId = input.nextInt();
-        input.nextLine();  // Consume newline left-over
+        input.nextLine();  
+        input.close();
     }
 
     public void displayDetails() {
@@ -31,6 +32,7 @@ class Manager extends Aaludra {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the Employee Department: ");
         this.empDept = input.nextLine();
+        input.close();
     }
 
     public void displayDepartment() {
@@ -46,6 +48,7 @@ class Director extends Manager {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the Employee Salary: ");
         this.empSalary = input.nextDouble();
+        input.close();
     }
 
     public void displaySalary() {

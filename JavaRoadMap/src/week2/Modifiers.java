@@ -31,7 +31,7 @@ public class Modifiers {
         // protected
         void modifyData() {
             data = 20; 
-            display(); // Calling the protected method from MyClass
+            display(); 
         }
     }
 
@@ -40,7 +40,6 @@ public class Modifiers {
         
         int data = 10; // Package-private
 
-        // Default access modifier 
         void display() {
             System.out.println("DefaultClass Data: " + data);
         }

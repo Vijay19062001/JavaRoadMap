@@ -14,6 +14,7 @@ class Employee {
         System.out.println("Enter the Employee ID: ");
         this.empId = input.nextInt();  
         input.nextLine();  
+        input.close();
     }
     
     public void displayDetails() {
@@ -29,6 +30,7 @@ class Managers extends Employee {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the Employee Department: ");
         empDept = input.nextLine();
+        input.close();
     }
     
     public void displayDetail() {
@@ -43,5 +45,7 @@ public class SingleInheritance {
         manage.inputDetails();
         manage.inputDepartment(); 
         manage.displayDetail();
+        
     }
+    
 }

@@ -1,10 +1,9 @@
 package week1;
 
 import java.util.Scanner;
-public class If_else {
+public class IfElse {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner input=new Scanner(System.in);
 		
 		System.out.print("Enter the number :");

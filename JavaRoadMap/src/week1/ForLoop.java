@@ -1,10 +1,9 @@
 package week1;
 
 import java.util.Scanner;
-public class For_loop {
+public class ForLoop {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter the number :");

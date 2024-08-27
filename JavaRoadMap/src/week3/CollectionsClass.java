@@ -33,8 +33,8 @@ public class CollectionsClass {
         }
         System.out.println("LinkedList: " + linkedList);
         
-        // Add at the start and end of the LinkedList
-        Deque<String> deque = (Deque<String>) linkedList;
+        LinkedList<String> linkedLists = new LinkedList<>();
+        Deque<String> deque = (Deque<String>) linkedLists;
         System.out.print("Enter element to add to the beginning of the LinkedList: ");
         String firstElement = input.nextLine();
         deque.addFirst(firstElement);
@@ -115,7 +115,7 @@ public class CollectionsClass {
         }
         System.out.println();
 
-        // 8. Convert Collection to Array
+       
         Object[] array = hashSet.toArray();
         System.out.println("HashSet to Array: " + Arrays.toString(array));
         

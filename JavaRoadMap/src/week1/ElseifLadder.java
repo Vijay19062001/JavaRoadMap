@@ -1,7 +1,7 @@
 package week1;
 
 import java.util.Scanner;
-public class Elseif_ladder {
+public class ElseifLadder {
 
 	 public static void main(String[] args) {
 	 Scanner input = new Scanner(System.in);

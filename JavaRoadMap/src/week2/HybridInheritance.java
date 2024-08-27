@@ -15,7 +15,8 @@ class Hybrid {
         
         System.out.println("Enter ID: ");
         this.id = input.nextInt();
-        input.nextLine();  
+        input.nextLine(); 
+        input.close();
     }
 
     public void displayPersonDetails() {
@@ -52,7 +53,8 @@ class Emp extends Hybrid implements Work, Pay {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Salary: ");
         this.salary = input.nextDouble();
-        input.nextLine();  // Consume newline
+        input.nextLine(); 
+        input.close();
     }
 
     public void displayEmployeeData() {
@@ -69,6 +71,7 @@ class Stud extends Hybrid {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Course: ");
         this.course = input.nextLine();
+        input.close();
     }
 
     public void displayStudentData() {
